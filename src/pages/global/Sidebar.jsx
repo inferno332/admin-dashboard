@@ -134,8 +134,8 @@ function Sidebar() {
                             setSelected={setSelected}
                         />
                         <Item
-                            title="Invoices Balances"
-                            to="/invoices"
+                            title="Categories"
+                            to="/categories"
                             icon={<ReceiptOutlined />}
                             selected={selected}
                             setSelected={setSelected}

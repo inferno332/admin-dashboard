@@ -7,6 +7,7 @@ import Sidebar from './pages/global/Sidebar';
 import Dashboard from './pages/dashboard';
 import Team from './pages/team';
 import Contacts from './pages/contacts';
+import Categories from './pages/categories';
 // import Invoices from './pages/invoices';
 // import Bar from './pages/bar';
 // import Form from './pages/form';
@@ -29,7 +30,7 @@ function App() {
                         <Routes>
                             <Route path="/" element={<Dashboard />} />
                             <Route path="/team" element={<Team />} />
-                            {/* <Route path="/invoices" element={<Invoices />} /> */}
+                            <Route path="/categories" element={<Categories />} />
                             <Route path="/contacts" element={<Contacts />} />
                             {/* <Route path="/form" element={<Form />} /> */}
                             {/* <Route path="/bar" element={<Bar />} /> */}
